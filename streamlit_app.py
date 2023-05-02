@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
+st.title("HI THIS IS SHYAM")
 with st.sidebar:
     
     selected = option_menu('HI THIS MACHINE LEARNING MODEL IS CREATED BY SHYAM RAJ ',
