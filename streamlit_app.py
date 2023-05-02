@@ -9,5 +9,5 @@ with st.sidebar:
                           ['WHAT CAN THIS MODEL DETECT',
                            'UPLOAD YOUR IMAGE',
                            'ABOUT US'],
-                          icons=['glass','plant','person'],
+                          icons=['image','upload','globe'],
                           default_index=0)
