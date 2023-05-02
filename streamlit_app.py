@@ -4,10 +4,10 @@ from streamlit_option_menu import option_menu
 st.title("HI THIS MACHINE LEARNING MODEL IS CREATED BY SHYAM RAJ")
 with st.sidebar:
     
-    selected = option_menu('CHOOSE THE PREDICTION MODEL',
+    selected = option_menu('CHOOSE THE ACTION BELOW',
                           
-                          [':moon',
-                           'WHY ARE YOU HERE',
-                           'CONTACT ?'],
-                          icons=['activity','heart','person'],
+                          ['WHAT CAN THIS MODEL DETECT',
+                           'UPLOAD YOUR IMAGE',
+                           'ABOUT US'],
+                          icons=['glass','plant','person'],
                           default_index=0)
