@@ -1,7 +1,9 @@
 import streamlit as st
-st.title("THIS_IS_MY_FIRST_STREAMLIT_APP")
-st.markdown("""
-🌍HOW ARE YOU DARLING <br>
-🌲I THINK YOU ARE DOING FINE <br>
-🎁OKAY BYE BYE TAKE CARE <br>
-""")
+st.title("THIS IS MY FIRST STREAMLIT APP")
+col1, col2 = st.beta_columns(2)
+
+with col1:
+  st.markdown(":moon HEY")
+  
+with col2:
+  st.markdown(":world WHATSUP")
